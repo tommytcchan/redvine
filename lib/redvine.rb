@@ -52,12 +52,13 @@ class Redvine
     get_request_data('timelines/promoted', opts)
   end
 
-  def trending(opts={})
-    get_request_data('timelines/trending', opts)
-  end
 
   def timeline(opts={})
     get_request_data('timelines/graph', opts)
+  end
+
+  def trending_tags(opts={})
+    get_request_data('tags/trending', opts)
   end
 
   def likes(opts={})
