@@ -52,6 +52,10 @@ class Redvine
     get_request_data('timelines/promoted', opts)
   end
 
+  def trending(opts={})
+    get_request_data('timelines/trending', opts)
+  end
+
   def timeline(opts={})
     get_request_data('timelines/graph', opts)
   end
