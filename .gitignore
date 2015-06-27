@@ -21,3 +21,10 @@ tmp
 /config.yml
 /vcr_cassettes/
 /.rvmrc
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/.name
+/.idea/.rakeTasks
+/.idea/redvine.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
