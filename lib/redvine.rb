@@ -69,6 +69,10 @@ class Redvine
     get_request_data("timelines/channels/#{channel_id}/popular", opts)
   end
 
+  def channel_popular(channel_id, opts={size: 20, anchor: 0})
+    get_request_data("timelines/channels/#{channel_id}/recent", opts)
+  end
+
   def following(uid,opts={})
     raise(ArgumentError, 'You must specify a user id') if !uid
     get_request_data("users/#{uid}/following", opts)
